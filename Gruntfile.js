@@ -38,5 +38,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['jshint','nodeunit','uglify']);
-
+  grunt.registerTask('travis', ['default']);
 };

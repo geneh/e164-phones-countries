@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/geneh/e164-phones-countries.git"
   },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
   "keywords": [
     "e164",
     "phones",
