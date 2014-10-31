@@ -1,0 +1,22 @@
+{
+  "name": "e164-phones-countries",
+  "main": "e164-phones-countries.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/geneh/e164-phones-countries",
+  "authors": [
+    "Gene Hazan"
+  ],
+  "description": "e164-phones-countries =====================",
+  "keywords": [
+    "e164",
+    "phones",
+    "countries"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
