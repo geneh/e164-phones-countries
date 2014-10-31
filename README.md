@@ -19,7 +19,7 @@ This utility was inspired by [e164.js](https://github.com/pdeschen/e164.js). I w
 See tests for more examples.
 
 ## Useful Links
-(http://en.wikipedia.org/wiki/E.164)
-(http://en.wikipedia.org/wiki/List_of_country_calling_codes)
-(https://en.wikipedia.org/wiki/ISO_3166-1)
-(http://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes)
+[E.164](http://en.wikipedia.org/wiki/E.164)
+[List of country calling codes](http://en.wikipedia.org/wiki/List_of_country_calling_codes)
+[ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1)
+[List of North American Numbering Plan area codes](http://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes)
