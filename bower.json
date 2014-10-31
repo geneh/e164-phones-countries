@@ -1,7 +1,7 @@
 {
   "name": "e164-phones-countries",
   "main": "src/e164-phones-countries.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/geneh/e164-phones-countries",
   "authors": [
     "Gene Hazan"
