@@ -17,12 +17,12 @@ module.exports = function(grunt) {
       },
       all: ['Gruntfile.js', 'src/*.js', 'test/*.js']
     },
-    nodeunit: {
-      all: ['test/*_test.js']
+    qunit: {
+      all: ['test/*.html']
     },
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> v<%= pkg.version %> | (c) <%= grunt.template.today("yyyy") %> Gene Hazan | MIT License */\n'
+        banner: '/*! <%= pkg.name %> v<%= pkg.version %>.js | (c) <%= grunt.template.today("yyyy") %> Gene Hazan | MIT License */\n'
       },
       build: {
         src: 'src/<%= pkg.name %>.js',
@@ -33,10 +33,10 @@ module.exports = function(grunt) {
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-nodeunit');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
-  grunt.registerTask('default', ['jshint','nodeunit','uglify']);
+  grunt.registerTask('default', ['jshint','qunit','uglify']);
   grunt.registerTask('travis', ['default']);
 };

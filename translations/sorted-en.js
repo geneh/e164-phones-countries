@@ -1,7 +1,7 @@
 var TRANSLATIONS = {
     en: {
     	countriesArr: [
-    		{cc: 'US', cn: 'United States'},
+			{cc: 'US', cn: 'United States'},
 			{cc: 'CA', cn: 'Canada'},
 			{cc: 'AF', cn: 'Afghanistan'},
 			{cc: 'AX', cn: 'Åland Islands'},
